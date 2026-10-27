@@ -8,7 +8,11 @@ import numpy as np
 import streamlit as st
 from tensorflow import keras
 
-ARTIFACT_DIR = Path(__file__).parent / "D17_artifacts1"
+# ARTIFACT_DIR = Path(__file__).parent / "D17_artifacts1"
+# MODEL_PATH = ARTIFACT_DIR / "sine_regression_model.keras"
+# SCALER_PATH = ARTIFACT_DIR / "input_scaler.joblib"
+
+ARTIFACT_DIR = Path(__file__).resolve().parent
 MODEL_PATH = ARTIFACT_DIR / "sine_regression_model.keras"
 SCALER_PATH = ARTIFACT_DIR / "input_scaler.joblib"
 
